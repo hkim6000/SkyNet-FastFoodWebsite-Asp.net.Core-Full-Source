@@ -1,0 +1,1607 @@
+{
+  "categories": [
+    {
+      "key": "burgers",
+      "label": "Burgers"
+    },
+    {
+      "key": "chicken",
+      "label": "Chicken"
+    },
+    {
+      "key": "salads",
+      "label": "Salads & Wraps"
+    },
+    {
+      "key": "sides",
+      "label": "Sides"
+    },
+    {
+      "key": "breakfast",
+      "label": "Breakfast"
+    },
+    {
+      "key": "kids",
+      "label": "Kids"
+    },
+    {
+      "key": "family",
+      "label": "Family Meals"
+    },
+    {
+      "key": "drinks",
+      "label": "Drinks"
+    },
+    {
+      "key": "sweets",
+      "label": "Shakes & Sweets"
+    }
+  ],
+  "diets": [
+    {
+      "key": "veg",
+      "label": "Vegetarian"
+    },
+    {
+      "key": "spicy",
+      "label": "Spicy"
+    },
+    {
+      "key": "light",
+      "label": "Under 600 cal"
+    }
+  ],
+  "features": [
+    {
+      "key": "drive",
+      "label": "Drive-thru"
+    },
+    {
+      "key": "late",
+      "label": "Open late"
+    },
+    {
+      "key": "delivery",
+      "label": "Delivery"
+    },
+    {
+      "key": "breakfast",
+      "label": "Breakfast"
+    },
+    {
+      "key": "catering",
+      "label": "Catering pickup"
+    }
+  ],
+  "options": [
+    {
+      "key": "burger",
+      "sizes": [
+        {
+          "key": "single",
+          "label": "Single",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "double",
+          "label": "Double",
+          "price": 2.5,
+          "calories": 290
+        },
+        {
+          "key": "triple",
+          "label": "Triple",
+          "price": 4.5,
+          "calories": 560
+        }
+      ],
+      "addons": [
+        {
+          "key": "cheese",
+          "label": "Extra cheese",
+          "price": 0.9,
+          "calories": 90
+        },
+        {
+          "key": "bacon",
+          "label": "Applewood bacon",
+          "price": 1.6,
+          "calories": 110
+        },
+        {
+          "key": "avocado",
+          "label": "Avocado",
+          "price": 1.4,
+          "calories": 60
+        },
+        {
+          "key": "jalapeno",
+          "label": "Fire-roasted jalapeños",
+          "price": 0.6,
+          "calories": 5
+        },
+        {
+          "key": "egg",
+          "label": "Fried egg",
+          "price": 1.2,
+          "calories": 90
+        },
+        {
+          "key": "combo",
+          "label": "Make it a combo (medium fries + drink)",
+          "price": 3.99,
+          "calories": 520
+        }
+      ],
+      "removes": [
+        {
+          "key": "onion",
+          "label": "No onion"
+        },
+        {
+          "key": "pickles",
+          "label": "No pickles"
+        },
+        {
+          "key": "tomato",
+          "label": "No tomato"
+        },
+        {
+          "key": "lettuce",
+          "label": "No lettuce"
+        },
+        {
+          "key": "sauce",
+          "label": "No sauce"
+        }
+      ]
+    },
+    {
+      "key": "veggie",
+      "sizes": [
+        {
+          "key": "single",
+          "label": "Single",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "double",
+          "label": "Double",
+          "price": 2.8,
+          "calories": 260
+        }
+      ],
+      "addons": [
+        {
+          "key": "cheese",
+          "label": "Extra cheese",
+          "price": 0.9,
+          "calories": 90
+        },
+        {
+          "key": "avocado",
+          "label": "Avocado",
+          "price": 1.4,
+          "calories": 60
+        },
+        {
+          "key": "jalapeno",
+          "label": "Fire-roasted jalapeños",
+          "price": 0.6,
+          "calories": 5
+        },
+        {
+          "key": "combo",
+          "label": "Make it a combo (medium fries + drink)",
+          "price": 3.99,
+          "calories": 520
+        }
+      ],
+      "removes": [
+        {
+          "key": "onion",
+          "label": "No onion"
+        },
+        {
+          "key": "tomato",
+          "label": "No tomato"
+        },
+        {
+          "key": "sauce",
+          "label": "No sauce"
+        }
+      ]
+    },
+    {
+      "key": "chicken",
+      "sizes": [],
+      "addons": [
+        {
+          "key": "cheese",
+          "label": "Cheese",
+          "price": 0.9,
+          "calories": 90
+        },
+        {
+          "key": "bacon",
+          "label": "Applewood bacon",
+          "price": 1.6,
+          "calories": 110
+        },
+        {
+          "key": "glaze",
+          "label": "Hot honey glaze",
+          "price": 0.7,
+          "calories": 60
+        },
+        {
+          "key": "combo",
+          "label": "Make it a combo (medium fries + drink)",
+          "price": 3.99,
+          "calories": 520
+        }
+      ],
+      "removes": [
+        {
+          "key": "pickles",
+          "label": "No pickles"
+        },
+        {
+          "key": "lettuce",
+          "label": "No lettuce"
+        },
+        {
+          "key": "sauce",
+          "label": "No sauce"
+        }
+      ]
+    },
+    {
+      "key": "tenders",
+      "sizes": [
+        {
+          "key": "3",
+          "label": "3 pieces",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "5",
+          "label": "5 pieces",
+          "price": 3.0,
+          "calories": 240
+        },
+        {
+          "key": "8",
+          "label": "8 pieces",
+          "price": 6.5,
+          "calories": 600
+        }
+      ],
+      "addons": [
+        {
+          "key": "dip",
+          "label": "Extra dip",
+          "price": 0.5,
+          "calories": 110
+        },
+        {
+          "key": "glaze",
+          "label": "Hot honey glaze",
+          "price": 0.7,
+          "calories": 60
+        },
+        {
+          "key": "combo",
+          "label": "Make it a combo (medium fries + drink)",
+          "price": 3.99,
+          "calories": 520
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "salad",
+      "sizes": [],
+      "addons": [
+        {
+          "key": "grilled",
+          "label": "Grilled chicken",
+          "price": 2.5,
+          "calories": 160
+        },
+        {
+          "key": "crispy",
+          "label": "Crispy chicken",
+          "price": 2.5,
+          "calories": 260
+        },
+        {
+          "key": "avocado",
+          "label": "Avocado",
+          "price": 1.4,
+          "calories": 60
+        },
+        {
+          "key": "dressing",
+          "label": "Extra dressing",
+          "price": 0.5,
+          "calories": 120
+        }
+      ],
+      "removes": [
+        {
+          "key": "onion",
+          "label": "No onion"
+        },
+        {
+          "key": "croutons",
+          "label": "No croutons"
+        },
+        {
+          "key": "cheese",
+          "label": "No cheese"
+        }
+      ]
+    },
+    {
+      "key": "side",
+      "sizes": [
+        {
+          "key": "s",
+          "label": "Small",
+          "price": -0.6,
+          "calories": -120
+        },
+        {
+          "key": "m",
+          "label": "Medium",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "l",
+          "label": "Large",
+          "price": 0.8,
+          "calories": 140
+        }
+      ],
+      "addons": [
+        {
+          "key": "cheese",
+          "label": "Cheese sauce",
+          "price": 0.9,
+          "calories": 110
+        },
+        {
+          "key": "dip",
+          "label": "Extra dip",
+          "price": 0.5,
+          "calories": 110
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "breakfast",
+      "sizes": [],
+      "addons": [
+        {
+          "key": "egg",
+          "label": "Extra egg",
+          "price": 1.0,
+          "calories": 90
+        },
+        {
+          "key": "bacon",
+          "label": "Applewood bacon",
+          "price": 1.6,
+          "calories": 110
+        },
+        {
+          "key": "cheese",
+          "label": "Cheese",
+          "price": 0.9,
+          "calories": 90
+        },
+        {
+          "key": "hash",
+          "label": "Add a hash brown",
+          "price": 1.49,
+          "calories": 150
+        }
+      ],
+      "removes": [
+        {
+          "key": "cheese",
+          "label": "No cheese"
+        },
+        {
+          "key": "sauce",
+          "label": "No sauce"
+        }
+      ]
+    },
+    {
+      "key": "kids",
+      "sizes": [],
+      "addons": [
+        {
+          "key": "apples",
+          "label": "Swap fries for apple slices",
+          "price": 0.0,
+          "calories": -170
+        },
+        {
+          "key": "milk",
+          "label": "Swap drink for milk",
+          "price": 0.0,
+          "calories": 10
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "family",
+      "sizes": [],
+      "addons": [
+        {
+          "key": "tenders",
+          "label": "Add 5 tenders",
+          "price": 5.99,
+          "calories": 600
+        },
+        {
+          "key": "shakes",
+          "label": "Add 4 small shakes",
+          "price": 9.99,
+          "calories": 1800
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "drink",
+      "sizes": [
+        {
+          "key": "s",
+          "label": "Small",
+          "price": -0.4,
+          "calories": -60
+        },
+        {
+          "key": "m",
+          "label": "Medium",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "l",
+          "label": "Large",
+          "price": 0.6,
+          "calories": 90
+        }
+      ],
+      "addons": [
+        {
+          "key": "lightice",
+          "label": "Light ice",
+          "price": 0.0,
+          "calories": 0
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "hot",
+      "sizes": [
+        {
+          "key": "s",
+          "label": "Small",
+          "price": -0.3,
+          "calories": -10
+        },
+        {
+          "key": "m",
+          "label": "Medium",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "l",
+          "label": "Large",
+          "price": 0.5,
+          "calories": 20
+        }
+      ],
+      "addons": [
+        {
+          "key": "shot",
+          "label": "Extra espresso shot",
+          "price": 0.8,
+          "calories": 5
+        },
+        {
+          "key": "oat",
+          "label": "Oat milk",
+          "price": 0.6,
+          "calories": 30
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "shake",
+      "sizes": [
+        {
+          "key": "reg",
+          "label": "Regular",
+          "price": 0.0,
+          "calories": 0
+        },
+        {
+          "key": "lg",
+          "label": "Large",
+          "price": 1.3,
+          "calories": 240
+        }
+      ],
+      "addons": [
+        {
+          "key": "whip",
+          "label": "Whipped cream",
+          "price": 0.0,
+          "calories": 80
+        },
+        {
+          "key": "crumble",
+          "label": "Cookie crumble",
+          "price": 0.7,
+          "calories": 120
+        },
+        {
+          "key": "cherry",
+          "label": "Extra cherry",
+          "price": 0.3,
+          "calories": 10
+        }
+      ],
+      "removes": []
+    },
+    {
+      "key": "sweet",
+      "sizes": [],
+      "addons": [
+        {
+          "key": "scoop",
+          "label": "Add a scoop of vanilla",
+          "price": 1.2,
+          "calories": 140
+        }
+      ],
+      "removes": []
+    }
+  ],
+  "items": [
+    {
+      "id": "flamejack-classic",
+      "name": "The Flamejack",
+      "category": "burgers",
+      "options": "burger",
+      "price": 7.49,
+      "calories": 640,
+      "tags": [
+        "popular"
+      ],
+      "description": "Our flame-grilled beef patty, melted cheddar, lettuce, tomato, pickles, onion and Jack sauce on a toasted brioche bun.",
+      "image": "images/menu/flamejack-classic.svg",
+      "rank": 0
+    },
+    {
+      "id": "smokehouse-bacon",
+      "name": "Smokehouse Bacon",
+      "category": "burgers",
+      "options": "burger",
+      "price": 9.29,
+      "calories": 860,
+      "tags": [
+        "popular"
+      ],
+      "description": "Two strips of applewood bacon, smoked cheddar, crispy onions and tangy barbecue sauce.",
+      "image": "images/menu/smokehouse-bacon.svg",
+      "rank": 1
+    },
+    {
+      "id": "inferno-stack",
+      "name": "Inferno Stack",
+      "category": "burgers",
+      "options": "burger",
+      "price": 8.99,
+      "calories": 780,
+      "tags": [
+        "spicy",
+        "popular"
+      ],
+      "description": "Pepper jack, fire-roasted jalapeños, chipotle mayo and a dusting of ghost-pepper salt. Not for the shy.",
+      "image": "images/menu/inferno-stack.svg",
+      "rank": 2
+    },
+    {
+      "id": "mushroom-swiss",
+      "name": "Mushroom Swiss",
+      "category": "burgers",
+      "options": "burger",
+      "price": 8.79,
+      "calories": 720,
+      "tags": [],
+      "description": "Garlic-butter mushrooms and melted Swiss on a flame-grilled patty with a little truffle aioli.",
+      "image": "images/menu/mushroom-swiss.svg",
+      "rank": 3
+    },
+    {
+      "id": "big-jack-double",
+      "name": "Big Jack Double",
+      "category": "burgers",
+      "options": "burger",
+      "price": 10.49,
+      "calories": 1080,
+      "tags": [
+        "popular"
+      ],
+      "description": "Two patties, two slices of cheddar, shredded lettuce, pickles and our secret Jack sauce.",
+      "image": "images/menu/big-jack-double.svg",
+      "rank": 4
+    },
+    {
+      "id": "patty-melt",
+      "name": "Diner Patty Melt",
+      "category": "burgers",
+      "options": "burger",
+      "price": 8.49,
+      "calories": 760,
+      "tags": [],
+      "description": "Caramelized onions and Swiss on toasted rye, griddled until golden.",
+      "image": "images/menu/patty-melt.svg",
+      "rank": 5
+    },
+    {
+      "id": "little-jack",
+      "name": "Little Jack",
+      "category": "burgers",
+      "options": "burger",
+      "price": 4.99,
+      "calories": 390,
+      "tags": [
+        "light"
+      ],
+      "description": "A smaller patty with cheese, pickles, mustard and ketchup. Simple and good.",
+      "image": "images/menu/little-jack.svg",
+      "rank": 6
+    },
+    {
+      "id": "garden-stack",
+      "name": "Garden Stack",
+      "category": "burgers",
+      "options": "veggie",
+      "price": 8.49,
+      "calories": 560,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "A crispy black bean and quinoa patty with avocado, tomato, lettuce and herb mayo.",
+      "image": "images/menu/garden-stack.svg",
+      "rank": 7
+    },
+    {
+      "id": "crispy-chicken",
+      "name": "Crispy Chicken Sandwich",
+      "category": "chicken",
+      "options": "chicken",
+      "price": 7.99,
+      "calories": 690,
+      "tags": [
+        "popular"
+      ],
+      "description": "Buttermilk-brined chicken breast, crunchy pickles and mayo on a buttered bun.",
+      "image": "images/menu/crispy-chicken.svg",
+      "rank": 8
+    },
+    {
+      "id": "nashville-hot",
+      "name": "Nashville Hot",
+      "category": "chicken",
+      "options": "chicken",
+      "price": 8.49,
+      "calories": 740,
+      "tags": [
+        "spicy"
+      ],
+      "description": "Crispy chicken dipped in cayenne oil with slaw and pickles. Hot, then hotter.",
+      "image": "images/menu/nashville-hot.svg",
+      "rank": 9
+    },
+    {
+      "id": "grilled-club",
+      "name": "Grilled Chicken Club",
+      "category": "chicken",
+      "options": "chicken",
+      "price": 8.99,
+      "calories": 590,
+      "tags": [
+        "light"
+      ],
+      "description": "Flame-grilled chicken, bacon, Swiss, lettuce, tomato and honey mustard.",
+      "image": "images/menu/grilled-club.svg",
+      "rank": 10
+    },
+    {
+      "id": "chicken-tenders",
+      "name": "Chicken Tenders",
+      "category": "chicken",
+      "options": "tenders",
+      "price": 6.99,
+      "calories": 420,
+      "tags": [
+        "popular"
+      ],
+      "description": "Hand-breaded tenders with your choice of dip: honey mustard, ranch or Jack sauce.",
+      "image": "images/menu/chicken-tenders.svg",
+      "rank": 11
+    },
+    {
+      "id": "nuggets",
+      "name": "Golden Nuggets",
+      "category": "chicken",
+      "options": "tenders",
+      "price": 5.49,
+      "calories": 380,
+      "tags": [],
+      "description": "Bite-size, all-white-meat nuggets with two dips.",
+      "image": "images/menu/nuggets.svg",
+      "rank": 12
+    },
+    {
+      "id": "wings",
+      "name": "Flame Wings",
+      "category": "chicken",
+      "options": "tenders",
+      "price": 8.99,
+      "calories": 610,
+      "tags": [
+        "spicy"
+      ],
+      "description": "Grill-charred wings tossed in buffalo or honey-chipotle sauce.",
+      "image": "images/menu/wings.svg",
+      "rank": 13
+    },
+    {
+      "id": "cobb-salad",
+      "name": "Flamejack Cobb",
+      "category": "salads",
+      "options": "salad",
+      "price": 9.49,
+      "calories": 540,
+      "tags": [
+        "light"
+      ],
+      "description": "Romaine, grilled chicken, bacon, egg, tomato, blue cheese and avocado ranch.",
+      "image": "images/menu/cobb-salad.svg",
+      "rank": 14
+    },
+    {
+      "id": "garden-salad",
+      "name": "Garden Salad",
+      "category": "salads",
+      "options": "salad",
+      "price": 6.49,
+      "calories": 280,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Mixed greens, cucumber, tomato, carrots, red onion and house vinaigrette.",
+      "image": "images/menu/garden-salad.svg",
+      "rank": 15
+    },
+    {
+      "id": "southwest-bowl",
+      "name": "Southwest Bowl",
+      "category": "salads",
+      "options": "salad",
+      "price": 9.29,
+      "calories": 610,
+      "tags": [
+        "spicy"
+      ],
+      "description": "Rice, black beans, corn salsa, grilled chicken, pepper jack and chipotle crema.",
+      "image": "images/menu/southwest-bowl.svg",
+      "rank": 16
+    },
+    {
+      "id": "chicken-wrap",
+      "name": "Crispy Chicken Wrap",
+      "category": "salads",
+      "options": "salad",
+      "price": 7.49,
+      "calories": 580,
+      "tags": [
+        "light"
+      ],
+      "description": "Crispy chicken, lettuce, cheddar and ranch in a warm flour tortilla.",
+      "image": "images/menu/chicken-wrap.svg",
+      "rank": 17
+    },
+    {
+      "id": "veggie-wrap",
+      "name": "Hummus Veggie Wrap",
+      "category": "salads",
+      "options": "salad",
+      "price": 6.99,
+      "calories": 470,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Hummus, roasted peppers, cucumber, spinach and feta in a spinach tortilla.",
+      "image": "images/menu/veggie-wrap.svg",
+      "rank": 18
+    },
+    {
+      "id": "fries",
+      "name": "Golden Fries",
+      "category": "sides",
+      "options": "side",
+      "price": 3.29,
+      "calories": 380,
+      "tags": [
+        "veg",
+        "light",
+        "popular"
+      ],
+      "description": "Skin-on fries, cut fresh and sea-salted.",
+      "image": "images/menu/fries.svg",
+      "rank": 19
+    },
+    {
+      "id": "loaded-fries",
+      "name": "Loaded Fries",
+      "category": "sides",
+      "options": "side",
+      "price": 5.49,
+      "calories": 690,
+      "tags": [],
+      "description": "Fries with cheese sauce, bacon, green onion and a drizzle of Jack sauce.",
+      "image": "images/menu/loaded-fries.svg",
+      "rank": 20
+    },
+    {
+      "id": "onion-rings",
+      "name": "Onion Rings",
+      "category": "sides",
+      "options": "side",
+      "price": 3.79,
+      "calories": 420,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Thick-cut sweet onion in a crunchy beer-style batter.",
+      "image": "images/menu/onion-rings.svg",
+      "rank": 21
+    },
+    {
+      "id": "sweet-fries",
+      "name": "Sweet Potato Fries",
+      "category": "sides",
+      "options": "side",
+      "price": 3.99,
+      "calories": 360,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Crisp sweet potato fries with a pinch of smoked paprika.",
+      "image": "images/menu/sweet-fries.svg",
+      "rank": 22
+    },
+    {
+      "id": "mac-bites",
+      "name": "Mac & Cheese Bites",
+      "category": "sides",
+      "options": "side",
+      "price": 4.49,
+      "calories": 410,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Creamy mac and cheese, breaded and fried until golden.",
+      "image": "images/menu/mac-bites.svg",
+      "rank": 23
+    },
+    {
+      "id": "slaw",
+      "name": "Crunchy Slaw",
+      "category": "sides",
+      "options": "side",
+      "price": 2.49,
+      "calories": 170,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Cabbage, carrot and a light apple-cider dressing.",
+      "image": "images/menu/slaw.svg",
+      "rank": 24
+    },
+    {
+      "id": "sunrise-sandwich",
+      "name": "Sunrise Sandwich",
+      "category": "breakfast",
+      "options": "breakfast",
+      "price": 4.99,
+      "calories": 470,
+      "tags": [
+        "light",
+        "popular"
+      ],
+      "description": "Fried egg, sausage patty and American cheese on a toasted English muffin.",
+      "image": "images/menu/sunrise-sandwich.svg",
+      "rank": 25
+    },
+    {
+      "id": "bacon-biscuit",
+      "name": "Bacon Egg Biscuit",
+      "category": "breakfast",
+      "options": "breakfast",
+      "price": 4.79,
+      "calories": 510,
+      "tags": [
+        "light"
+      ],
+      "description": "Fluffy buttermilk biscuit with bacon, egg and cheddar.",
+      "image": "images/menu/bacon-biscuit.svg",
+      "rank": 26
+    },
+    {
+      "id": "breakfast-burrito",
+      "name": "Breakfast Burrito",
+      "category": "breakfast",
+      "options": "breakfast",
+      "price": 5.99,
+      "calories": 640,
+      "tags": [
+        "spicy"
+      ],
+      "description": "Scrambled eggs, chorizo, potatoes, cheese and salsa roja.",
+      "image": "images/menu/breakfast-burrito.svg",
+      "rank": 27
+    },
+    {
+      "id": "pancakes",
+      "name": "Griddle Pancakes",
+      "category": "breakfast",
+      "options": "breakfast",
+      "price": 5.49,
+      "calories": 560,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Three buttermilk pancakes with butter and maple syrup.",
+      "image": "images/menu/pancakes.svg",
+      "rank": 28
+    },
+    {
+      "id": "hash-brown",
+      "name": "Hash Brown",
+      "category": "breakfast",
+      "options": "sweet",
+      "price": 1.99,
+      "calories": 170,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Crispy shredded potato, golden on both sides.",
+      "image": "images/menu/hash-brown.svg",
+      "rank": 29
+    },
+    {
+      "id": "kids-burger",
+      "name": "Kids Burger Meal",
+      "category": "kids",
+      "options": "kids",
+      "price": 5.99,
+      "calories": 520,
+      "tags": [
+        "light"
+      ],
+      "description": "A small cheeseburger, small fries, a juice box and a toy.",
+      "image": "images/menu/kids-burger.svg",
+      "rank": 30
+    },
+    {
+      "id": "kids-tenders",
+      "name": "Kids Tenders Meal",
+      "category": "kids",
+      "options": "kids",
+      "price": 5.99,
+      "calories": 490,
+      "tags": [
+        "light"
+      ],
+      "description": "Two tenders with dip, small fries and a juice box.",
+      "image": "images/menu/kids-tenders.svg",
+      "rank": 31
+    },
+    {
+      "id": "kids-grilled-cheese",
+      "name": "Kids Grilled Cheese",
+      "category": "kids",
+      "options": "kids",
+      "price": 4.99,
+      "calories": 450,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Melty cheddar on griddled bread, small fries and a juice box.",
+      "image": "images/menu/kids-grilled-cheese.svg",
+      "rank": 32
+    },
+    {
+      "id": "family-burger-box",
+      "name": "Family Burger Box",
+      "category": "family",
+      "options": "family",
+      "price": 32.99,
+      "calories": 3600,
+      "tags": [
+        "popular"
+      ],
+      "description": "Four Flamejacks, two large fries, onion rings and four medium drinks.",
+      "image": "images/menu/family-burger-box.svg",
+      "rank": 33
+    },
+    {
+      "id": "family-tender-box",
+      "name": "Family Tender Box",
+      "category": "family",
+      "options": "family",
+      "price": 29.99,
+      "calories": 3100,
+      "tags": [],
+      "description": "Twelve tenders, four dips, two large fries and a family slaw.",
+      "image": "images/menu/family-tender-box.svg",
+      "rank": 34
+    },
+    {
+      "id": "game-day-pack",
+      "name": "Game Day Pack",
+      "category": "family",
+      "options": "family",
+      "price": 39.99,
+      "calories": 4400,
+      "tags": [
+        "spicy"
+      ],
+      "description": "Twenty wings, ten tenders, loaded fries and four dips.",
+      "image": "images/menu/game-day-pack.svg",
+      "rank": 35
+    },
+    {
+      "id": "soda",
+      "name": "Fountain Soda",
+      "category": "drinks",
+      "options": "drink",
+      "price": 2.29,
+      "calories": 210,
+      "tags": [
+        "veg"
+      ],
+      "description": "Cola, diet cola, lemon-lime, root beer or orange.",
+      "image": "images/menu/soda.svg",
+      "rank": 36
+    },
+    {
+      "id": "lemonade",
+      "name": "Fresh Lemonade",
+      "category": "drinks",
+      "options": "drink",
+      "price": 2.99,
+      "calories": 180,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Squeezed in-house every morning. Try it with strawberry.",
+      "image": "images/menu/lemonade.svg",
+      "rank": 37
+    },
+    {
+      "id": "iced-tea",
+      "name": "Iced Tea",
+      "category": "drinks",
+      "options": "drink",
+      "price": 2.49,
+      "calories": 90,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Sweet or unsweet black tea, brewed fresh.",
+      "image": "images/menu/iced-tea.svg",
+      "rank": 38
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "category": "drinks",
+      "options": "hot",
+      "price": 3.49,
+      "calories": 15,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Slow-steeped for 18 hours. Smooth and strong.",
+      "image": "images/menu/cold-brew.svg",
+      "rank": 39
+    },
+    {
+      "id": "coffee",
+      "name": "Hot Coffee",
+      "category": "drinks",
+      "options": "hot",
+      "price": 1.99,
+      "calories": 5,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Medium roast, refilled while you dine in.",
+      "image": "images/menu/coffee.svg",
+      "rank": 40
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "category": "drinks",
+      "options": "drink",
+      "price": 2.79,
+      "calories": 160,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "100% orange juice, no added sugar.",
+      "image": "images/menu/orange-juice.svg",
+      "rank": 41
+    },
+    {
+      "id": "vanilla-shake",
+      "name": "Vanilla Bean Shake",
+      "category": "sweets",
+      "options": "shake",
+      "price": 4.99,
+      "calories": 640,
+      "tags": [
+        "veg",
+        "popular"
+      ],
+      "description": "Real vanilla bean ice cream, hand-spun with whole milk.",
+      "image": "images/menu/vanilla-shake.svg",
+      "rank": 42
+    },
+    {
+      "id": "chocolate-shake",
+      "name": "Double Chocolate Shake",
+      "category": "sweets",
+      "options": "shake",
+      "price": 5.29,
+      "calories": 720,
+      "tags": [
+        "veg"
+      ],
+      "description": "Chocolate ice cream, fudge and chocolate shavings.",
+      "image": "images/menu/chocolate-shake.svg",
+      "rank": 43
+    },
+    {
+      "id": "strawberry-shake",
+      "name": "Strawberry Shake",
+      "category": "sweets",
+      "options": "shake",
+      "price": 5.29,
+      "calories": 660,
+      "tags": [
+        "veg"
+      ],
+      "description": "Made with real strawberries, never syrup.",
+      "image": "images/menu/strawberry-shake.svg",
+      "rank": 44
+    },
+    {
+      "id": "cookie-sundae",
+      "name": "Cookie Sundae",
+      "category": "sweets",
+      "options": "sweet",
+      "price": 3.99,
+      "calories": 480,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Vanilla soft serve, warm cookie pieces and caramel.",
+      "image": "images/menu/cookie-sundae.svg",
+      "rank": 45
+    },
+    {
+      "id": "apple-hand-pie",
+      "name": "Apple Hand Pie",
+      "category": "sweets",
+      "options": "sweet",
+      "price": 2.49,
+      "calories": 300,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "Flaky pastry filled with cinnamon apples.",
+      "image": "images/menu/apple-hand-pie.svg",
+      "rank": 46
+    },
+    {
+      "id": "choc-chip-cookie",
+      "name": "Big Cookie",
+      "category": "sweets",
+      "options": "sweet",
+      "price": 1.99,
+      "calories": 260,
+      "tags": [
+        "veg",
+        "light"
+      ],
+      "description": "A warm, chewy chocolate-chip cookie the size of your hand.",
+      "image": "images/menu/choc-chip-cookie.svg",
+      "rank": 47
+    }
+  ],
+  "stores": [
+    {
+      "key": "riverton",
+      "name": "Riverton",
+      "address": "1200 Market Street",
+      "city": "Riverton",
+      "phone": "(555) 010-2201",
+      "hours": "6am – 1am",
+      "weekend": "6am – 2am",
+      "features": [
+        "drive",
+        "late",
+        "delivery",
+        "breakfast"
+      ],
+      "x": 0.62,
+      "y": 0.38
+    },
+    {
+      "key": "maple-hill",
+      "name": "Maple Hill",
+      "address": "48 Orchard Avenue",
+      "city": "Maple Hill",
+      "phone": "(555) 010-2202",
+      "hours": "6am – 11pm",
+      "weekend": "6am – 12am",
+      "features": [
+        "drive",
+        "breakfast",
+        "catering"
+      ],
+      "x": 0.28,
+      "y": 0.3
+    },
+    {
+      "key": "harbor-view",
+      "name": "Harbor View",
+      "address": "7 Pier Road",
+      "city": "Harbor View",
+      "phone": "(555) 010-2203",
+      "hours": "10am – 11pm",
+      "weekend": "10am – 12am",
+      "features": [
+        "delivery",
+        "catering"
+      ],
+      "x": 0.8,
+      "y": 0.7
+    },
+    {
+      "key": "cedar-point",
+      "name": "Cedar Point",
+      "address": "3300 Highway 9",
+      "city": "Cedar Point",
+      "phone": "(555) 010-2204",
+      "hours": "6am – 1am",
+      "weekend": "6am – 1am",
+      "features": [
+        "drive",
+        "late",
+        "breakfast"
+      ],
+      "x": 0.18,
+      "y": 0.66
+    },
+    {
+      "key": "oak-ridge",
+      "name": "Oak Ridge",
+      "address": "512 Ridge Parkway",
+      "city": "Oak Ridge",
+      "phone": "(555) 010-2205",
+      "hours": "6am – 11pm",
+      "weekend": "6am – 11pm",
+      "features": [
+        "drive",
+        "delivery",
+        "breakfast",
+        "catering"
+      ],
+      "x": 0.45,
+      "y": 0.58
+    },
+    {
+      "key": "lakeside",
+      "name": "Lakeside",
+      "address": "90 Shoreline Drive",
+      "city": "Lakeside",
+      "phone": "(555) 010-2206",
+      "hours": "10am – 10pm",
+      "weekend": "10am – 11pm",
+      "features": [
+        "delivery"
+      ],
+      "x": 0.7,
+      "y": 0.18
+    },
+    {
+      "key": "northgate",
+      "name": "Northgate",
+      "address": "2101 North Gate Blvd",
+      "city": "Northgate",
+      "phone": "(555) 010-2207",
+      "hours": "24 hours",
+      "weekend": "24 hours",
+      "features": [
+        "drive",
+        "late",
+        "delivery",
+        "breakfast"
+      ],
+      "x": 0.4,
+      "y": 0.14
+    },
+    {
+      "key": "union-square",
+      "name": "Union Square",
+      "address": "15 Union Square",
+      "city": "Union Square",
+      "phone": "(555) 010-2208",
+      "hours": "10am – 12am",
+      "weekend": "10am – 2am",
+      "features": [
+        "late",
+        "delivery",
+        "catering"
+      ],
+      "x": 0.55,
+      "y": 0.84
+    }
+  ],
+  "deals": [
+    {
+      "code": "FLAME10",
+      "title": "10% off your order",
+      "text": "Save 10% on any order of $15 or more.",
+      "kind": "percent",
+      "value": 10,
+      "min": 15.0,
+      "item": "",
+      "image": "images/menu/flamejack-classic.svg",
+      "when": "Every day"
+    },
+    {
+      "code": "FIVE30",
+      "title": "$5 off $30",
+      "text": "Take $5 off any order of $30 or more.",
+      "kind": "amount",
+      "value": 5,
+      "min": 30.0,
+      "item": "",
+      "image": "images/menu/family-burger-box.svg",
+      "when": "Every day"
+    },
+    {
+      "code": "FRYDAY",
+      "title": "Free fries with any burger",
+      "text": "Buy any burger and get a medium Golden Fries free.",
+      "kind": "free",
+      "value": 0,
+      "min": 0.0,
+      "item": "fries",
+      "image": "images/menu/fries.svg",
+      "when": "Fridays (always on in this demo)"
+    },
+    {
+      "code": "FREEDEL",
+      "title": "Free delivery",
+      "text": "No delivery fee on any delivery order.",
+      "kind": "delivery",
+      "value": 0,
+      "min": 0.0,
+      "item": "",
+      "image": "images/menu/chicken-tenders.svg",
+      "when": "Delivery orders"
+    },
+    {
+      "code": "SHAKE2",
+      "title": "Second shake half price",
+      "text": "Order two or more shakes and the cheaper one is half price.",
+      "kind": "shake",
+      "value": 50,
+      "min": 0.0,
+      "item": "",
+      "image": "images/menu/strawberry-shake.svg",
+      "when": "Every day"
+    },
+    {
+      "code": "FAMILY20",
+      "title": "20% off big orders",
+      "text": "Feeding a crowd? Save 20% on orders of $50 or more.",
+      "kind": "percent",
+      "value": 20,
+      "min": 50.0,
+      "item": "",
+      "image": "images/menu/game-day-pack.svg",
+      "when": "Every day"
+    }
+  ],
+  "packages": [
+    {
+      "key": "burger-bar",
+      "name": "Build-Your-Own Burger Bar",
+      "price": 12.99,
+      "text": "Flame-grilled patties, buns, cheeses, toppings and sauces, plus fries.",
+      "image": "images/menu/flamejack-classic.svg"
+    },
+    {
+      "key": "slider-party",
+      "name": "Slider Party",
+      "price": 10.49,
+      "text": "Three mini burgers per guest, chips and slaw.",
+      "image": "images/menu/little-jack.svg"
+    },
+    {
+      "key": "tender-tray",
+      "name": "Chicken Tender Tray",
+      "price": 10.99,
+      "text": "Hand-breaded tenders with four dips and fries.",
+      "image": "images/menu/chicken-tenders.svg"
+    },
+    {
+      "key": "salad-spread",
+      "name": "Salad & Wrap Spread",
+      "price": 11.49,
+      "text": "Two big salads, a wrap platter and fruit.",
+      "image": "images/menu/cobb-salad.svg"
+    },
+    {
+      "key": "breakfast-box",
+      "name": "Breakfast Box",
+      "price": 8.99,
+      "text": "Sunrise sandwiches, hash browns, fruit and coffee.",
+      "image": "images/menu/sunrise-sandwich.svg"
+    },
+    {
+      "key": "wing-platter",
+      "name": "Wing & Tender Platter",
+      "price": 13.49,
+      "text": "Flame wings, tenders, celery, carrots and dips.",
+      "image": "images/menu/wings.svg"
+    }
+  ],
+  "caterAddons": [
+    {
+      "key": "drinks",
+      "label": "Drinks for everyone",
+      "price": 1.99,
+      "unit": "per guest"
+    },
+    {
+      "key": "dessert",
+      "label": "Cookies & hand pies",
+      "price": 2.49,
+      "unit": "per guest"
+    },
+    {
+      "key": "staff",
+      "label": "Setup & serving staff",
+      "price": 75.0,
+      "unit": "flat"
+    },
+    {
+      "key": "delivery",
+      "label": "Delivery",
+      "price": 25.0,
+      "unit": "flat, free over $300"
+    }
+  ],
+  "tiers": [
+    {
+      "key": "spark",
+      "name": "Spark",
+      "points": 0,
+      "multiplier": 1.0,
+      "perks": "Earn 10 points per $1, free birthday shake."
+    },
+    {
+      "key": "flame",
+      "name": "Flame",
+      "points": 5000,
+      "multiplier": 1.25,
+      "perks": "1.25x points, free upsizes on Tuesdays, early deals."
+    },
+    {
+      "key": "blaze",
+      "name": "Blaze",
+      "points": 15000,
+      "multiplier": 1.5,
+      "perks": "1.5x points, a free burger every quarter, skip-the-line pickup."
+    }
+  ],
+  "rewards": [
+    {
+      "points": 250,
+      "name": "Any medium drink",
+      "image": "images/menu/soda.svg"
+    },
+    {
+      "points": 350,
+      "name": "Golden Fries",
+      "image": "images/menu/fries.svg"
+    },
+    {
+      "points": 450,
+      "name": "Big Cookie & coffee",
+      "image": "images/menu/choc-chip-cookie.svg"
+    },
+    {
+      "points": 600,
+      "name": "Any shake",
+      "image": "images/menu/vanilla-shake.svg"
+    },
+    {
+      "points": 750,
+      "name": "Crispy Chicken Sandwich",
+      "image": "images/menu/crispy-chicken.svg"
+    },
+    {
+      "points": 900,
+      "name": "The Flamejack",
+      "image": "images/menu/flamejack-classic.svg"
+    },
+    {
+      "points": 1300,
+      "name": "Any burger combo",
+      "image": "images/menu/smokehouse-bacon.svg"
+    },
+    {
+      "points": 2400,
+      "name": "Family Burger Box",
+      "image": "images/menu/family-burger-box.svg"
+    }
+  ]
+}

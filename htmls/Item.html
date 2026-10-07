@@ -1,0 +1,75 @@
+<div class="it-site" data-page="Item">
+<div class="it-promo"><a href="Deals"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2c4 4 6 7.5 6 11a6 6 0 0 1-12 0c0-2.4 1-4.4 2.6-6 .2 2 1.2 3.2 2.4 3.4C10.6 7.6 11 4.6 12 2z"/></svg><span>Free Golden Fries with any burger &mdash; use code <b>FRYDAY</b></span></a></div>
+<header class="it-head" id="it-head">
+    <div class="it-head-row">
+        <button type="button" class="it-burger" aria-label="Menu" onclick="ItemJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="it-logo" href="Home"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="it-logo-t">Flamejack<small>Burgers</small></span></a>
+        <nav class="it-nav" id="it-nav">
+            <div class="it-nav-top"><span class="it-logo"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="it-logo-t">Flamejack<small>Burgers</small></span></span>
+                <button type="button" class="it-nav-x" aria-label="Close" onclick="ItemJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="it-menu">
+                <li class="it-mi it-on"><div class="it-mrow"><a class="it-ml" href="Menu">Menu</a><button type="button" class="it-mx" aria-label="Expand" onclick="ItemJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="it-mega"><div class="it-mega-in"><div class="it-mcol"><div class="it-mtitle">Eat</div><ul><li><a href="Menu?cat=burgers">Burgers</a></li><li><a href="Menu?cat=chicken">Chicken</a></li><li><a href="Menu?cat=salads">Salads &amp; Wraps</a></li><li><a href="Menu?cat=sides">Sides</a></li><li><a href="Menu?cat=breakfast">Breakfast</a></li></ul></div><div class="it-mcol"><div class="it-mtitle">Sip &amp; more</div><ul><li><a href="Menu?cat=kids">Kids</a></li><li><a href="Menu?cat=family">Family Meals</a></li><li><a href="Menu?cat=drinks">Drinks</a></li><li><a href="Menu?cat=sweets">Shakes &amp; Sweets</a></li></ul></div><a class="it-mpromo" href="Menu"><img src="images/banners/menu.webp" alt="" loading="lazy"><span class="it-mpromo-t">Hot off the flame</span><span class="it-mpromo-c">See the full menu &rarr;</span></a></div></div></li><li class="it-mi"><div class="it-mrow"><a class="it-ml" href="Order">Order Online</a></div></li><li class="it-mi"><div class="it-mrow"><a class="it-ml" href="Catering">Catering</a></div></li><li class="it-mi"><div class="it-mrow"><a class="it-ml" href="Rewards">Rewards</a></div></li><li class="it-mi"><div class="it-mrow"><a class="it-ml" href="Locations">Locations</a><button type="button" class="it-mx" aria-label="Expand" onclick="ItemJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="it-mega"><div class="it-mega-in"><div class="it-mcol"><div class="it-mtitle">Stores</div><ul><li><a href="Locations">Riverton</a></li><li><a href="Locations">Maple Hill</a></li><li><a href="Locations">Harbor View</a></li><li><a href="Locations">Cedar Point</a></li></ul></div><div class="it-mcol"><div class="it-mtitle">More stores</div><ul><li><a href="Locations">Oak Ridge</a></li><li><a href="Locations">Lakeside</a></li><li><a href="Locations">Northgate</a></li><li><a href="Locations">Union Square</a></li></ul></div><a class="it-mpromo" href="Locations"><img src="images/banners/locations.webp" alt="" loading="lazy"><span class="it-mpromo-t">8 stores, open early &amp; late</span><span class="it-mpromo-c">Find a store &rarr;</span></a></div></div></li><li class="it-mi"><div class="it-mrow"><a class="it-ml" href="Deals">Deals</a><button type="button" class="it-mx" aria-label="Expand" onclick="ItemJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="it-mega"><div class="it-mega-in"><div class="it-mcol"><div class="it-mtitle">This week</div><ul><li><a href="Deals">10% off your order</a></li><li><a href="Deals">$5 off $30</a></li><li><a href="Deals">Free fries with any burger</a></li></ul></div><div class="it-mcol"><div class="it-mtitle">Every day</div><ul><li><a href="Deals">Free delivery</a></li><li><a href="Deals">Second shake half price</a></li><li><a href="Deals">20% off big orders</a></li></ul></div><a class="it-mpromo" href="Deals"><img src="images/banners/deals.webp" alt="" loading="lazy"><span class="it-mpromo-t">Codes that actually save</span><span class="it-mpromo-c">All deals &rarr;</span></a></div></div></li><li class="it-mi it-mi-x"><div class="it-mrow"><a class="it-ml" href="About">About</a></div></li><li class="it-mi it-mi-x"><div class="it-mrow"><a class="it-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="it-search" id="it-search">
+            <span class="it-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="it-q" placeholder="Search menu, deals…" autocomplete="off" maxlength="40" oninput="ItemJs.search(this.value)" onfocus="ItemJs.search(this.value)">
+            <div class="it-sugg" id="it-sugg"></div>
+        </div>
+        <a class="it-cart" href="Order" aria-label="Your order"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="it-cart-t">Order</span><b class="it-badge" id="it-badge">0</b></a>
+    </div>
+    <div class="it-scrim" id="it-scrim" onclick="ItemJs.closeNav()"></div>
+</header>
+<main class="it-main">
+    <div class="it-wrap"><div class="it-crumb"><a href="Home">Home</a><span>/</span><a href="Menu">Menu</a><span>/</span>{plhd_crumb}</div></div>
+    <div class="it-wrap">
+        <section class="it-pd">
+            <div class="it-pd-art">{plhd_art}</div>
+            <div class="it-pd-b">
+                <div class="it-eyebrow">{plhd_cat}</div>
+                <h1>{plhd_name}</h1>
+                <p class="it-pd-d">{plhd_desc}</p>
+                <div class="it-pd-base">{plhd_base}</div>
+                <input type="hidden" id="it-id" value="{plhd_id}">
+                <div class="it-pd-f">{plhd_form}</div>
+                <div class="it-pd-buy">
+                    <div class="it-pd-qty"><button type="button" aria-label="Less" onclick="ItemJs.qty(-1)">&minus;</button><input type="text" id="it-qty" value="1" readonly aria-label="Quantity"><button type="button" aria-label="More" onclick="ItemJs.qty(1)">+</button></div>
+                    <div class="it-pd-sum"><b id="it-price">{plhd_price}</b><span id="it-cal">{plhd_cal}</span><small id="it-sum">{plhd_sum}</small></div>
+                    <button type="button" class="it-btn it-pd-add" onclick="ItemJs.add()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span>Add to order</span></button>
+                </div>
+                <div class="it-nutri">{plhd_nutri}</div>
+                <p class="it-fine">Nutrition values are approximate. 2,000 calories a day is used for general nutrition advice.</p>
+            </div>
+        </section>
+        <section class="it-sec">
+            <div class="it-sec-h"><div><div class="it-eyebrow">Make it a meal</div><h2>Goes well with</h2></div><a href="Menu">Full menu &rarr;</a></div>
+            <div class="it-items it-items-3">{plhd_goes}</div>
+        </section>
+    </div>
+</main>
+<section class="it-join">
+    <div class="it-join-in">
+        <div class="it-join-t"><span class="it-join-i"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span><div><h3>Join Flamejack Rewards</h3><p>200 bonus points on your first order, a free shake on your birthday.</p></div></div>
+        <a class="it-btn it-btn-y" href="Rewards">Join for free</a>
+    </div>
+</section>
+<footer class="it-foot">
+    <div class="it-foot-in">
+        <div class="it-fbrand">
+            <a class="it-logo it-logo-l" href="Home"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="it-logo-t">Flamejack<small>Burgers</small></span></a>
+            <p>Flame-grilled. Fast. Fair. Fresh beef, cut-daily fries and real-fruit shakes since 2011.</p>
+            <div class="it-nl-f"><input type="email" id="it-nl-email" placeholder="Email me the deals" maxlength="80" autocomplete="off"><button type="button" onclick="ItemJs.subscribe()">Sign up</button></div>
+            <div class="it-nl-msg" id="it-nl-msg"></div>
+        </div>
+        <div class="it-fcol"><div class="it-ftitle">Menu</div><ul><li><a href="Menu?cat=burgers">Burgers</a></li><li><a href="Menu?cat=chicken">Chicken</a></li><li><a href="Menu?cat=salads">Salads &amp; Wraps</a></li><li><a href="Menu?cat=sides">Sides</a></li><li><a href="Menu?cat=breakfast">Breakfast</a></li><li><a href="Menu?cat=kids">Kids</a></li></ul></div><div class="it-fcol"><div class="it-ftitle">Order</div><ul><li><a href="Order">Order online</a></li><li><a href="Deals">Deals</a></li><li><a href="Catering">Catering</a></li><li><a href="Rewards">Rewards</a></li></ul></div><div class="it-fcol"><div class="it-ftitle">Company</div><ul><li><a href="About">Our story</a></li><li><a href="Locations">Locations</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Careers</a></li></ul></div>
+    </div>
+    <div class="it-disc">Flamejack Burgers is a fictional brand made for a website template. Menu, prices, stores and deals are illustrative &mdash; no orders are placed and nothing is charged.</div>
+    <div class="it-foot-bar">
+        <span>&copy; 2026 Flamejack Burgers (fictional). All rights reserved.</span>
+        <span class="it-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></a></span>
+        <span class="it-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+<a class="it-cartbar" id="it-cartbar" href="Order"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span id="it-cartbar-t">View order</span><b id="it-cartbar-p"></b></a>
+<div class="it-toast" id="it-toast" role="status"></div>
+</div>

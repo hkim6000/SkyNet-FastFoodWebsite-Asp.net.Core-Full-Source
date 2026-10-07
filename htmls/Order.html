@@ -1,0 +1,88 @@
+<div class="od-site" data-page="Order">
+<div class="od-promo"><a href="Deals"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2c4 4 6 7.5 6 11a6 6 0 0 1-12 0c0-2.4 1-4.4 2.6-6 .2 2 1.2 3.2 2.4 3.4C10.6 7.6 11 4.6 12 2z"/></svg><span>Free Golden Fries with any burger &mdash; use code <b>FRYDAY</b></span></a></div>
+<header class="od-head" id="od-head">
+    <div class="od-head-row">
+        <button type="button" class="od-burger" aria-label="Menu" onclick="OrderJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="od-logo" href="Home"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="od-logo-t">Flamejack<small>Burgers</small></span></a>
+        <nav class="od-nav" id="od-nav">
+            <div class="od-nav-top"><span class="od-logo"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="od-logo-t">Flamejack<small>Burgers</small></span></span>
+                <button type="button" class="od-nav-x" aria-label="Close" onclick="OrderJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="od-menu">
+                <li class="od-mi"><div class="od-mrow"><a class="od-ml" href="Menu">Menu</a><button type="button" class="od-mx" aria-label="Expand" onclick="OrderJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="od-mega"><div class="od-mega-in"><div class="od-mcol"><div class="od-mtitle">Eat</div><ul><li><a href="Menu?cat=burgers">Burgers</a></li><li><a href="Menu?cat=chicken">Chicken</a></li><li><a href="Menu?cat=salads">Salads &amp; Wraps</a></li><li><a href="Menu?cat=sides">Sides</a></li><li><a href="Menu?cat=breakfast">Breakfast</a></li></ul></div><div class="od-mcol"><div class="od-mtitle">Sip &amp; more</div><ul><li><a href="Menu?cat=kids">Kids</a></li><li><a href="Menu?cat=family">Family Meals</a></li><li><a href="Menu?cat=drinks">Drinks</a></li><li><a href="Menu?cat=sweets">Shakes &amp; Sweets</a></li></ul></div><a class="od-mpromo" href="Menu"><img src="images/banners/menu.webp" alt="" loading="lazy"><span class="od-mpromo-t">Hot off the flame</span><span class="od-mpromo-c">See the full menu &rarr;</span></a></div></div></li><li class="od-mi od-on"><div class="od-mrow"><a class="od-ml" href="Order">Order Online</a></div></li><li class="od-mi"><div class="od-mrow"><a class="od-ml" href="Catering">Catering</a></div></li><li class="od-mi"><div class="od-mrow"><a class="od-ml" href="Rewards">Rewards</a></div></li><li class="od-mi"><div class="od-mrow"><a class="od-ml" href="Locations">Locations</a><button type="button" class="od-mx" aria-label="Expand" onclick="OrderJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="od-mega"><div class="od-mega-in"><div class="od-mcol"><div class="od-mtitle">Stores</div><ul><li><a href="Locations">Riverton</a></li><li><a href="Locations">Maple Hill</a></li><li><a href="Locations">Harbor View</a></li><li><a href="Locations">Cedar Point</a></li></ul></div><div class="od-mcol"><div class="od-mtitle">More stores</div><ul><li><a href="Locations">Oak Ridge</a></li><li><a href="Locations">Lakeside</a></li><li><a href="Locations">Northgate</a></li><li><a href="Locations">Union Square</a></li></ul></div><a class="od-mpromo" href="Locations"><img src="images/banners/locations.webp" alt="" loading="lazy"><span class="od-mpromo-t">8 stores, open early &amp; late</span><span class="od-mpromo-c">Find a store &rarr;</span></a></div></div></li><li class="od-mi"><div class="od-mrow"><a class="od-ml" href="Deals">Deals</a><button type="button" class="od-mx" aria-label="Expand" onclick="OrderJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="od-mega"><div class="od-mega-in"><div class="od-mcol"><div class="od-mtitle">This week</div><ul><li><a href="Deals">10% off your order</a></li><li><a href="Deals">$5 off $30</a></li><li><a href="Deals">Free fries with any burger</a></li></ul></div><div class="od-mcol"><div class="od-mtitle">Every day</div><ul><li><a href="Deals">Free delivery</a></li><li><a href="Deals">Second shake half price</a></li><li><a href="Deals">20% off big orders</a></li></ul></div><a class="od-mpromo" href="Deals"><img src="images/banners/deals.webp" alt="" loading="lazy"><span class="od-mpromo-t">Codes that actually save</span><span class="od-mpromo-c">All deals &rarr;</span></a></div></div></li><li class="od-mi od-mi-x"><div class="od-mrow"><a class="od-ml" href="About">About</a></div></li><li class="od-mi od-mi-x"><div class="od-mrow"><a class="od-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="od-search" id="od-search">
+            <span class="od-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="od-q" placeholder="Search menu, deals…" autocomplete="off" maxlength="40" oninput="OrderJs.search(this.value)" onfocus="OrderJs.search(this.value)">
+            <div class="od-sugg" id="od-sugg"></div>
+        </div>
+        <a class="od-cart" href="Order" aria-label="Your order"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="od-cart-t">Order</span><b class="od-badge" id="od-badge">0</b></a>
+    </div>
+    <div class="od-scrim" id="od-scrim" onclick="OrderJs.closeNav()"></div>
+</header>
+<main class="od-main">
+    <section class="od-banner">
+        <img src="images/banners/order.webp" alt="">
+        <div class="od-banner-txt"><div class="od-eyebrow">Order online</div><h1>Your order</h1><p>Review your bag, pick pickup or delivery, and you&rsquo;re done. Prices and totals are calculated on the server.</p></div>
+    </section>
+    <div class="od-wrap"><div class="od-crumb"><a href="Home">Home</a><span>/</span>Order Online</div></div>
+    <div class="od-wrap">
+        <section class="od-sec od-checkout">
+            <div class="od-bag">
+                <div class="od-bag-h"><h2>Your bag</h2><button type="button" class="od-link" onclick="OrderJs.update('clear', 0)">Clear bag</button></div>
+                <div id="od-lines"><div class="od-bag-empty"><b>Loading your order&hellip;</b></div></div>
+                <a class="od-more" href="Menu">+ Add more from the menu</a>
+                <div class="od-promo-box">
+                    <label for="od-code">Promo code</label>
+                    <div class="od-promo-f"><input type="text" id="od-code" maxlength="12" autocomplete="off" placeholder="e.g. FLAME10"><button type="button" class="od-btn od-btn-s" onclick="OrderJs.promo()">Apply</button></div>
+                    <div id="od-promo-msg"></div>
+                </div>
+            </div>
+            <div class="od-co od-form" id="od-form">
+                <div class="od-seg" role="radiogroup" aria-label="Pickup or delivery">
+                    <button type="button" class="od-seg-b od-act" data-m="pickup" onclick="OrderJs.mode('pickup')">Pickup</button>
+                    <button type="button" class="od-seg-b" data-m="delivery" onclick="OrderJs.mode('delivery')">Delivery</button>
+                </div>
+                <label>Store<select id="od-store" class="od-sel">{plhd_stores}</select><em id="od-e-store"></em></label>
+                <label>When<select id="od-time" class="od-sel">{plhd_times}</select><em id="od-e-time"></em></label>
+                <label class="od-addr" id="od-addr">Delivery address<input type="text" id="od-address" maxlength="120" autocomplete="off" placeholder="Street, apartment, city"><em id="od-e-address"></em></label>
+                <div class="od-row2">
+                    <label>Name<input type="text" id="od-name" maxlength="60" autocomplete="off"><em id="od-e-name"></em></label>
+                    <label>Phone<input type="tel" id="od-phone" maxlength="20" autocomplete="off" placeholder="555 010 1234"><em id="od-e-phone"></em></label>
+                </div>
+                <label>Email<input type="email" id="od-email" maxlength="80" autocomplete="off"><em id="od-e-email"></em></label>
+                <div class="od-totals" id="od-totals"></div>
+                <em id="od-e-cart"></em>
+                <button type="button" class="od-btn od-place" id="od-place" onclick="OrderJs.place()">Place order</button>
+                <p class="od-fine">Demo checkout: nothing is charged and no order is sent.</p>
+                <div class="od-done" id="od-done"></div>
+            </div>
+        </section>
+    </div>
+</main>
+<section class="od-join">
+    <div class="od-join-in">
+        <div class="od-join-t"><span class="od-join-i"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span><div><h3>Join Flamejack Rewards</h3><p>200 bonus points on your first order, a free shake on your birthday.</p></div></div>
+        <a class="od-btn od-btn-y" href="Rewards">Join for free</a>
+    </div>
+</section>
+<footer class="od-foot">
+    <div class="od-foot-in">
+        <div class="od-fbrand">
+            <a class="od-logo od-logo-l" href="Home"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="od-logo-t">Flamejack<small>Burgers</small></span></a>
+            <p>Flame-grilled. Fast. Fair. Fresh beef, cut-daily fries and real-fruit shakes since 2011.</p>
+            <div class="od-nl-f"><input type="email" id="od-nl-email" placeholder="Email me the deals" maxlength="80" autocomplete="off"><button type="button" onclick="OrderJs.subscribe()">Sign up</button></div>
+            <div class="od-nl-msg" id="od-nl-msg"></div>
+        </div>
+        <div class="od-fcol"><div class="od-ftitle">Menu</div><ul><li><a href="Menu?cat=burgers">Burgers</a></li><li><a href="Menu?cat=chicken">Chicken</a></li><li><a href="Menu?cat=salads">Salads &amp; Wraps</a></li><li><a href="Menu?cat=sides">Sides</a></li><li><a href="Menu?cat=breakfast">Breakfast</a></li><li><a href="Menu?cat=kids">Kids</a></li></ul></div><div class="od-fcol"><div class="od-ftitle">Order</div><ul><li><a href="Order">Order online</a></li><li><a href="Deals">Deals</a></li><li><a href="Catering">Catering</a></li><li><a href="Rewards">Rewards</a></li></ul></div><div class="od-fcol"><div class="od-ftitle">Company</div><ul><li><a href="About">Our story</a></li><li><a href="Locations">Locations</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Careers</a></li></ul></div>
+    </div>
+    <div class="od-disc">Flamejack Burgers is a fictional brand made for a website template. Menu, prices, stores and deals are illustrative &mdash; no orders are placed and nothing is charged.</div>
+    <div class="od-foot-bar">
+        <span>&copy; 2026 Flamejack Burgers (fictional). All rights reserved.</span>
+        <span class="od-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></a></span>
+        <span class="od-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+<a class="od-cartbar" id="od-cartbar" href="Order"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span id="od-cartbar-t">View order</span><b id="od-cartbar-p"></b></a>
+<div class="od-toast" id="od-toast" role="status"></div>
+</div>

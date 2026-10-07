@@ -1,0 +1,72 @@
+<div class="ab-site" data-page="About">
+<div class="ab-promo"><a href="Deals"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2c4 4 6 7.5 6 11a6 6 0 0 1-12 0c0-2.4 1-4.4 2.6-6 .2 2 1.2 3.2 2.4 3.4C10.6 7.6 11 4.6 12 2z"/></svg><span>Free Golden Fries with any burger &mdash; use code <b>FRYDAY</b></span></a></div>
+<header class="ab-head" id="ab-head">
+    <div class="ab-head-row">
+        <button type="button" class="ab-burger" aria-label="Menu" onclick="AboutJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ab-logo" href="Home"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="ab-logo-t">Flamejack<small>Burgers</small></span></a>
+        <nav class="ab-nav" id="ab-nav">
+            <div class="ab-nav-top"><span class="ab-logo"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="ab-logo-t">Flamejack<small>Burgers</small></span></span>
+                <button type="button" class="ab-nav-x" aria-label="Close" onclick="AboutJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="ab-menu">
+                <li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Menu">Menu</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">Eat</div><ul><li><a href="Menu?cat=burgers">Burgers</a></li><li><a href="Menu?cat=chicken">Chicken</a></li><li><a href="Menu?cat=salads">Salads &amp; Wraps</a></li><li><a href="Menu?cat=sides">Sides</a></li><li><a href="Menu?cat=breakfast">Breakfast</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">Sip &amp; more</div><ul><li><a href="Menu?cat=kids">Kids</a></li><li><a href="Menu?cat=family">Family Meals</a></li><li><a href="Menu?cat=drinks">Drinks</a></li><li><a href="Menu?cat=sweets">Shakes &amp; Sweets</a></li></ul></div><a class="ab-mpromo" href="Menu"><img src="images/banners/menu.webp" alt="" loading="lazy"><span class="ab-mpromo-t">Hot off the flame</span><span class="ab-mpromo-c">See the full menu &rarr;</span></a></div></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Order">Order Online</a></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Catering">Catering</a></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Rewards">Rewards</a></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Locations">Locations</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">Stores</div><ul><li><a href="Locations">Riverton</a></li><li><a href="Locations">Maple Hill</a></li><li><a href="Locations">Harbor View</a></li><li><a href="Locations">Cedar Point</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">More stores</div><ul><li><a href="Locations">Oak Ridge</a></li><li><a href="Locations">Lakeside</a></li><li><a href="Locations">Northgate</a></li><li><a href="Locations">Union Square</a></li></ul></div><a class="ab-mpromo" href="Locations"><img src="images/banners/locations.webp" alt="" loading="lazy"><span class="ab-mpromo-t">8 stores, open early &amp; late</span><span class="ab-mpromo-c">Find a store &rarr;</span></a></div></div></li><li class="ab-mi"><div class="ab-mrow"><a class="ab-ml" href="Deals">Deals</a><button type="button" class="ab-mx" aria-label="Expand" onclick="AboutJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ab-mega"><div class="ab-mega-in"><div class="ab-mcol"><div class="ab-mtitle">This week</div><ul><li><a href="Deals">10% off your order</a></li><li><a href="Deals">$5 off $30</a></li><li><a href="Deals">Free fries with any burger</a></li></ul></div><div class="ab-mcol"><div class="ab-mtitle">Every day</div><ul><li><a href="Deals">Free delivery</a></li><li><a href="Deals">Second shake half price</a></li><li><a href="Deals">20% off big orders</a></li></ul></div><a class="ab-mpromo" href="Deals"><img src="images/banners/deals.webp" alt="" loading="lazy"><span class="ab-mpromo-t">Codes that actually save</span><span class="ab-mpromo-c">All deals &rarr;</span></a></div></div></li><li class="ab-mi ab-on ab-mi-x"><div class="ab-mrow"><a class="ab-ml" href="About">About</a></div></li><li class="ab-mi ab-mi-x"><div class="ab-mrow"><a class="ab-ml" href="Contact">Contact</a></div></li>
+            </ul>
+        </nav>
+        <div class="ab-search" id="ab-search">
+            <span class="ab-search-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="ab-q" placeholder="Search menu, deals…" autocomplete="off" maxlength="40" oninput="AboutJs.search(this.value)" onfocus="AboutJs.search(this.value)">
+            <div class="ab-sugg" id="ab-sugg"></div>
+        </div>
+        <a class="ab-cart" href="Order" aria-label="Your order"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="ab-cart-t">Order</span><b class="ab-badge" id="ab-badge">0</b></a>
+    </div>
+    <div class="ab-scrim" id="ab-scrim" onclick="AboutJs.closeNav()"></div>
+</header>
+<main class="ab-main">
+    <section class="ab-banner">
+        <img src="images/banners/about.webp" alt="">
+        <div class="ab-banner-txt"><div class="ab-eyebrow">Our story</div><h1>Six stools and a grill</h1><p>Flamejack started as a tiny burger counter in 2011. The grill is bigger now; the rules haven&rsquo;t changed.</p></div>
+    </section>
+    <div class="ab-wrap"><div class="ab-crumb"><a href="Home">Home</a><span>/</span>About</div></div>
+    <div class="ab-wrap">
+        <section class="ab-sec ab-story">
+            <img src="images/menu/flamejack-classic.svg" alt="">
+            <div><h2>Burgers the way we like them</h2>
+            <p>Rosa and Dev opened the first Flamejack with six stools, one flat-top and a charcoal grill they built themselves. The burgers were simple: fresh beef, a hot flame, a soft bun and a sauce Dev still won&rsquo;t write down.</p>
+            <p>Fifteen years and {plhd_count} stores later, every patty still meets the flame minutes before it meets you. We cut our fries every morning, squeeze our lemons by hand and keep our prices fair.</p></div>
+        </section>
+        <section class="ab-sec"><div class="ab-stats"><div class="ab-stat"><b>8</b><span>stores</span></div><div class="ab-stat"><b>15</b><span>years flipping burgers</span></div><div class="ab-stat"><b>200k+</b><span>rewards members</span></div><div class="ab-stat"><b>0</b><span>frozen patties</span></div></div></section>
+        <section class="ab-sec">
+            <div class="ab-sec-h"><div><div class="ab-eyebrow">What we believe</div><h2>Four simple rules</h2></div></div>
+            <div class="ab-vals"><div class="ab-val"><b>Fresh, never frozen</b><p>Our beef arrives fresh every morning and meets the flame minutes before it meets you.</p></div><div class="ab-val"><b>Cut in-house</b><p>Fries, onions and lemons are cut and squeezed in our kitchens daily.</p></div><div class="ab-val"><b>Fair prices</b><p>Real food at fast-food prices, with rewards that actually add up.</p></div><div class="ab-val"><b>Good neighbors</b><p>Every store sponsors a local team and donates leftovers nightly.</p></div></div>
+        </section>
+        <section class="ab-sec">
+            <div class="ab-sec-h"><div><div class="ab-eyebrow">Since 2011</div><h2>A short history</h2></div></div>
+            <ol class="ab-timeline"><li><b>2011</b><span>Founders Rosa and Dev open a six-stool burger counter in Riverton.</span></li><li><b>2014</b><span>The Flamejack hits the menu and lines go round the block.</span></li><li><b>2017</b><span>First drive-thru opens in Cedar Point.</span></li><li><b>2020</b><span>Online ordering and delivery launch in every store.</span></li><li><b>2023</b><span>Flamejack Rewards passes 200,000 members.</span></li><li><b>2026</b><span>Eight stores, same grill, same rule: fresh beef, never frozen.</span></li></ol>
+        </section>
+    </div>
+</main>
+<section class="ab-join">
+    <div class="ab-join-in">
+        <div class="ab-join-t"><span class="ab-join-i"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span><div><h3>Join Flamejack Rewards</h3><p>200 bonus points on your first order, a free shake on your birthday.</p></div></div>
+        <a class="ab-btn ab-btn-y" href="Rewards">Join for free</a>
+    </div>
+</section>
+<footer class="ab-foot">
+    <div class="ab-foot-in">
+        <div class="ab-fbrand">
+            <a class="ab-logo ab-logo-l" href="Home"><svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1E1B18"/><path d="M32 9 C46 22 44 34 40 40 C44 34 40 26 36 24 C38 32 32 36 30 40 C26 34 30 26 26 22 C22 30 20 34 22 42 C16 34 18 22 32 9 Z" fill="#FFB224"/><path d="M32 26 C38 34 38 40 32 46 C27 41 27 34 32 26 Z" fill="#FF5A1F"/><rect x="14" y="46" width="36" height="7" rx="3.5" fill="#FFF7EC"/></svg><span class="ab-logo-t">Flamejack<small>Burgers</small></span></a>
+            <p>Flame-grilled. Fast. Fair. Fresh beef, cut-daily fries and real-fruit shakes since 2011.</p>
+            <div class="ab-nl-f"><input type="email" id="ab-nl-email" placeholder="Email me the deals" maxlength="80" autocomplete="off"><button type="button" onclick="AboutJs.subscribe()">Sign up</button></div>
+            <div class="ab-nl-msg" id="ab-nl-msg"></div>
+        </div>
+        <div class="ab-fcol"><div class="ab-ftitle">Menu</div><ul><li><a href="Menu?cat=burgers">Burgers</a></li><li><a href="Menu?cat=chicken">Chicken</a></li><li><a href="Menu?cat=salads">Salads &amp; Wraps</a></li><li><a href="Menu?cat=sides">Sides</a></li><li><a href="Menu?cat=breakfast">Breakfast</a></li><li><a href="Menu?cat=kids">Kids</a></li></ul></div><div class="ab-fcol"><div class="ab-ftitle">Order</div><ul><li><a href="Order">Order online</a></li><li><a href="Deals">Deals</a></li><li><a href="Catering">Catering</a></li><li><a href="Rewards">Rewards</a></li></ul></div><div class="ab-fcol"><div class="ab-ftitle">Company</div><ul><li><a href="About">Our story</a></li><li><a href="Locations">Locations</a></li><li><a href="Contact">Contact</a></li><li><a href="Contact">Careers</a></li></ul></div>
+    </div>
+    <div class="ab-disc">Flamejack Burgers is a fictional brand made for a website template. Menu, prices, stores and deals are illustrative &mdash; no orders are placed and nothing is charged.</div>
+    <div class="ab-foot-bar">
+        <span>&copy; 2026 Flamejack Burgers (fictional). All rights reserved.</span>
+        <span class="ab-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></a></span>
+        <span class="ab-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+<a class="ab-cartbar" id="ab-cartbar" href="Order"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span id="ab-cartbar-t">View order</span><b id="ab-cartbar-p"></b></a>
+<div class="ab-toast" id="ab-toast" role="status"></div>
+</div>
