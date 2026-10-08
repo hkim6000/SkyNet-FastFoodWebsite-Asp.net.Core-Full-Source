@@ -102,7 +102,7 @@ namespace FastFood.codes
         public async Task<ApiResponse> Subscribe()
         {
             ApiResponse response = new ApiResponse();
-            await Task.CompletedTask;
+            
             string email = (GetDataValue("email") ?? string.Empty).Trim();
             if (!IsEmail(email))
             {
