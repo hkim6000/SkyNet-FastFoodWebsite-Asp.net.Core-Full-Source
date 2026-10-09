@@ -426,4 +426,8 @@ var ContactJs = (function () {
 
 })();
 
-ContactJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', ContactJs.reveal);
+} else {
+    ContactJs.reveal();
+}

@@ -426,4 +426,8 @@ var ItemJs = (function () {
 
 })();
 
-ItemJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', ItemJs.reveal);
+} else {
+    ItemJs.reveal();
+}

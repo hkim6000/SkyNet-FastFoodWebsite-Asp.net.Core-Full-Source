@@ -426,4 +426,8 @@ var LocationsJs = (function () {
 
 })();
 
-LocationsJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', LocationsJs.reveal);
+} else {
+    LocationsJs.reveal();
+}

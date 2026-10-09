@@ -426,4 +426,8 @@ var AboutJs = (function () {
 
 })();
 
-AboutJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', AboutJs.reveal);
+} else {
+    AboutJs.reveal();
+}

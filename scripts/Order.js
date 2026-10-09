@@ -426,4 +426,8 @@ var OrderJs = (function () {
 
 })();
 
-OrderJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', OrderJs.reveal);
+} else {
+    OrderJs.reveal();
+}

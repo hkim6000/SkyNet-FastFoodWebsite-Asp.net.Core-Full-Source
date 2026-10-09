@@ -426,4 +426,8 @@ var RewardsJs = (function () {
 
 })();
 
-RewardsJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', RewardsJs.reveal);
+} else {
+    RewardsJs.reveal();
+}

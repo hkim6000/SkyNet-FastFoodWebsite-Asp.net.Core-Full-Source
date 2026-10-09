@@ -426,4 +426,8 @@ var DealsJs = (function () {
 
 })();
 
-DealsJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', DealsJs.reveal);
+} else {
+    DealsJs.reveal();
+}

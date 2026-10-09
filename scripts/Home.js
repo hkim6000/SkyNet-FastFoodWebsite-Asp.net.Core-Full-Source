@@ -426,4 +426,8 @@ var HomeJs = (function () {
 
 })();
 
-HomeJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', HomeJs.reveal);
+} else {
+    HomeJs.reveal();
+}

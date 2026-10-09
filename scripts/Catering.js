@@ -426,4 +426,8 @@ var CateringJs = (function () {
 
 })();
 
-CateringJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', CateringJs.reveal);
+} else {
+    CateringJs.reveal();
+}

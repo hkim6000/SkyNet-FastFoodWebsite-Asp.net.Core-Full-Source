@@ -426,4 +426,8 @@ var MenuJs = (function () {
 
 })();
 
-MenuJs.reveal();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', MenuJs.reveal);
+} else {
+    MenuJs.reveal();
+}
